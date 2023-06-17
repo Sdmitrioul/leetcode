@@ -3,7 +3,10 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
     <output-test url="file://$MODULE_DIR$/../../algorithms/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../algorithms/src/test" />
+    <content url="file://$MODULE_DIR$/../../algorithms/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../algorithms/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../algorithms/src/test/java" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="algorithms.main" />

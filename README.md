@@ -20,4 +20,9 @@
 ### Easy
 - [x] [Print in Order](./concurrency/src/tasks/PrintInOrder.java)
 
-## Total count: 7
+## SQL
+
+### Easy
+- [x] [Rising Temperature](./sql/src/weather)
+
+## Total count: 8

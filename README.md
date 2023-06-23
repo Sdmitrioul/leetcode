@@ -11,6 +11,7 @@
 - [x] [Partition Array According to Given Pivot](./algorithms/src/main/java/tasks/PartitionArrayByPivot.java)
 - [x] [Largest Palindromic Number](./algorithms/src/main/java/tasks/LargestPalindromicNumber.java)
 - [x] [Smallest Value After Replacing With Sum of Prime Factors](./algorithms/src/main/java/tasks/SmallestValueAfterReplacingPrimeFactors.java)
+- [x] [Incremental Memory Leak](./algorithms/src/main/java/tasks/IncrementalMemoryLeak.java)
 
 ### Hard
 - [ ] [Maximum Number of Robots Within Budget](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)

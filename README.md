@@ -13,6 +13,7 @@
 - [x] [Smallest Value After Replacing With Sum of Prime Factors](./algorithms/src/main/java/tasks/SmallestValueAfterReplacingPrimeFactors.java)
 - [x] [Incremental Memory Leak](./algorithms/src/main/java/tasks/IncrementalMemoryLeak.java)
 - [x] [Maximize the Confusion of an Exam](./algorithms/src/main/java/tasks/MaximizeConfusionExam.java)
+- [x] [Find Consecutive Integers from a Data Stream](./algorithms/src/main/java/structures/DataStream.java)
 
 ### Hard
 - [ ] [Maximum Number of Robots Within Budget](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)
@@ -27,4 +28,4 @@
 ### Easy
 - [x] [Rising Temperature](./sql/src/weather)
 
-## Total count: 8
+## Total count: 12

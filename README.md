@@ -14,6 +14,7 @@
 - [x] [Incremental Memory Leak](./algorithms/src/main/java/tasks/IncrementalMemoryLeak.java)
 - [x] [Maximize the Confusion of an Exam](./algorithms/src/main/java/tasks/MaximizeConfusionExam.java)
 - [x] [Find Consecutive Integers from a Data Stream](./algorithms/src/main/java/structures/DataStream.java)
+- [x] [Path with Maximum Probability](./algorithms/src/main/java/tasks/PathMaximumProbability.java)
 
 ### Hard
 - [ ] [Maximum Number of Robots Within Budget](https://leetcode.com/problems/maximum-number-of-robots-within-budget/)
@@ -28,4 +29,4 @@
 ### Easy
 - [x] [Rising Temperature](./sql/src/weather)
 
-## Total count: 12
+## Total count: 13

@@ -1,6 +1,6 @@
 package tasks;
 
-import base.TreeNode;
+import utils.TreeNode;
 
 import java.util.InputMismatchException;
 

@@ -1,4 +1,4 @@
-package base;
+package utils;
 
 import java.util.Objects;
 
@@ -7,8 +7,17 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    public TreeNode(int x) {
-        val = x;
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
+
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 
     @Override
@@ -25,5 +34,10 @@ public class TreeNode {
     @Override
     public int hashCode() {
         return Objects.hash(val, left, right);
+    }
+
+    @Override
+    public String toString() {
+        return val + " L: " + left + " R: " + right;
     }
 }

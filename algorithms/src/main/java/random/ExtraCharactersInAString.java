@@ -35,21 +35,20 @@ public class ExtraCharactersInAString {
         dp[i] = answer;
         return dp[i];
     }
-}
+    private static class TreeNode {
+        final Map<Character, TreeNode> children = new HashMap<>();
+        boolean isWord = false;
 
-class TreeNode {
-    final Map<Character, TreeNode> children = new HashMap<>();
-    boolean isWord = false;
-
-    static TreeNode buildTree(String[] dictionary) {
-        TreeNode root = new TreeNode();
-        for (String word : dictionary) {
-            TreeNode node = root;
-            for (char c : word.toCharArray()) {
-                node = node.children.computeIfAbsent(c, k -> new TreeNode());
+        static TreeNode buildTree(String[] dictionary) {
+            TreeNode root = new TreeNode();
+            for (String word : dictionary) {
+                TreeNode node = root;
+                for (char c : word.toCharArray()) {
+                    node = node.children.computeIfAbsent(c, k -> new TreeNode());
+                }
+                node.isWord = true;
             }
-            node.isWord = true;
+            return root;
         }
-        return root;
     }
 }

@@ -38,6 +38,6 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        return val + " L: " + left + " R: " + right;
+        return val + " L: {" + left + "} R: {" + right + '}';
     }
 }

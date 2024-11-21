@@ -30,4 +30,4 @@
 ### Easy
 - [x] [Rising Temperature](./sql/src/weather)
 
-## Total count: 13
+## Total count: 25
